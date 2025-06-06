@@ -1,10 +1,10 @@
 import type { Product } from "@/types"
 
 export const categories = [
-  { id: "cotton", name: "Cotton", image: "/placeholder.svg?height=200&width=300" },
-  { id: "silk", name: "Silk", image: "/placeholder.svg?height=200&width=300" },
-  { id: "linen", name: "Linen", image: "/placeholder.svg?height=200&width=300" },
-  { id: "wool", name: "Wool", image: "/placeholder.svg?height=200&width=300" },
+  { id: "cotton", name: "Cotton", image: "images/si.jpg?height=200&width=300" },
+  { id: "silk", name: "Silk", image: "images/silk.jpg?height=200&width=300" },
+  { id: "linen", name: "Linen", image: "images/len.jpg?height=200&width=300" },
+  { id: "wool", name: "Wool", image: "images/wool.jpg?height=200&width=300" },
 ]
 
 export const products: Product[] = [
@@ -17,9 +17,9 @@ export const products: Product[] = [
     originalPrice: 29.99,
     category: "cotton",
     images: [
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
+      "images/si.jpg?height=400&width=400",
+      "images/su.jpg?height=400&width=400",
+      "images/sq.jpg?height=400&width=400",
     ],
     inStock: true,
     material: "Cotton",
@@ -33,7 +33,7 @@ export const products: Product[] = [
     description: "Elegant mulberry silk fabric with a lustrous finish. Perfect for formal wear and luxury home decor.",
     price: 89.99,
     category: "silk",
-    images: ["/placeholder.svg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
+    images: ["images/sx.jpg?height=400&width=400", "/images/sx.jpg?height=400&width=400"],
     inStock: true,
     material: "Silk",
     colors: ["Ivory", "Champagne", "Deep Red"],
@@ -46,7 +46,7 @@ export const products: Product[] = [
     description: "Breathable and lightweight linen fabric ideal for summer clothing and casual wear.",
     price: 34.99,
     category: "linen",
-    images: ["/placeholder.svg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
+    images: ["/images/sc.jpg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
     inStock: true,
     material: "Linen",
     colors: ["Natural", "White", "Stone Gray"],
@@ -59,7 +59,7 @@ export const products: Product[] = [
     description: "Soft and warm merino wool fabric perfect for winter clothing and accessories.",
     price: 54.99,
     category: "wool",
-    images: ["/placeholder.svg?height=400&width=400"],
+    images: ["images/sd.jpg?height=400&width=400"],
     inStock: true,
     material: "Wool",
     colors: ["Charcoal", "Navy", "Burgundy"],
@@ -72,7 +72,7 @@ export const products: Product[] = [
     price: 19.99,
     originalPrice: 24.99,
     category: "cotton",
-    images: ["/placeholder.svg?height=400&width=400"],
+    images: ["/images/so.jpg?height=400&width=400"],
     inStock: true,
     material: "Cotton Blend",
     colors: ["Cream", "Sage Green", "Dusty Pink"],
@@ -84,7 +84,7 @@ export const products: Product[] = [
     description: "Beautiful printed silk fabric perfect for scarves and accessories.",
     price: 64.99,
     category: "silk",
-    images: ["/placeholder.svg?height=400&width=400"],
+    images: ["/images/sf.jpg?height=400&width=400"],
     inStock: false,
     material: "Silk",
     colors: ["Floral Print", "Geometric Print"],

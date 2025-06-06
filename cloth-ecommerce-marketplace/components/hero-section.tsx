@@ -7,7 +7,7 @@ export default function HeroSection() {
     <div className="relative bg-gray-900 text-white">
       <div className="absolute inset-0">
         <Image
-          src="/placeholder.svg?height=600&width=1200"
+          src="images/main.jpg"
           alt="Textile fabrics"
           fill
           className="object-cover opacity-50"
@@ -30,7 +30,7 @@ export default function HeroSection() {
               <Button
                 size="lg"
                 variant="outline"
-                className="text-white border-white hover:bg-white hover:text-gray-900"
+                className="text-zinc-900 border-white "
               >
                 Browse Categories
               </Button>
