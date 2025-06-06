@@ -91,7 +91,10 @@ export default function WishlistPage() {
                   <span>Add to Cart</span>
                 </Button>
               </div>
-              <p className="text-xs text-gray-500 mt-2">Added {item.addedAt.toLocaleDateString()}</p>
+              <p className="text-xs text-gray-500 mt-2">
+  Added {new Date(item.addedAt).toLocaleDateString()}
+</p>
+
             </CardContent>
           </Card>
         ))}
